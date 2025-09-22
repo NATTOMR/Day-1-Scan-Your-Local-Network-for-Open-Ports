@@ -14,7 +14,7 @@
  ## Install Nmap from official website
  - Nmap (Network Mapper) is an open-source network scanning tool used to discover devices, identify open ports, detect services and their versions, and gather information about operating systems on a network. It is widely used for network auditing, security assessments, and troubleshooting. Nmap allows users to do a bunch of things that are related to a wide range of network-related tasks.
  - ➤ https://nmap.org/download.html#windows
- - ![image](https://github.com/NATTOMR/images/blob/main/extention.png)
+ - ![image](https://github.com/NATTOMR/Day-1-Scan-Your-Local-Network-for-Open-Ports/blob/main/image-1.png)
 
  ## Find your local IP range (e.g., 192.168.1.0/24)
  ## Run: nmap -sS 192.168.1.0/24 to perform TCP SYN scan
