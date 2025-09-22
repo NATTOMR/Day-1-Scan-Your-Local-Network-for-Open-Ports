@@ -70,4 +70,12 @@ So when you use the Wireshark filter:
 -  tcp.port == 22 or tcp.port == 443
 
  ## Identify potential security risks from open ports
+ ###Find your host machine’s IP
+
+### On Windows host machine:
+`ifconfig`
+- 192.168.0.111
+### Scan from the attacker machine
+`nmap -p- 192.168.1.10`
+
  ## Save scan results as a text or HTML file
