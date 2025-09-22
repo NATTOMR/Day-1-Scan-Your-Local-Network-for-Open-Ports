@@ -17,6 +17,7 @@
  - ![image](https://github.com/NATTOMR/Day-1-Scan-Your-Local-Network-for-Open-Ports/blob/main/image-1.png)
 
  ## Find your local IP range (e.g., 192.168.1.0/24)
+ - ![image]( https://github.com/NATTOMR/Day-1-Scan-Your-Local-Network-for-Open-Ports/blob/main/image-2.jpg)
  ## Run: nmap -sS 192.168.1.0/24 to perform TCP SYN scan
  ## Note down IP addresses and open ports found
  ## Optionally analyze packet capture with Wireshark
