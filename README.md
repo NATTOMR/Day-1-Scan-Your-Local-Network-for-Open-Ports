@@ -3,7 +3,7 @@
 ## Objectives
 1. [Install Nmap from official website](#Install-Nmap-from-official-website)
 2. [Find your local IP range (e.g., 192.168.1.0/24)](#Find-your-local-IP-range-(e.g.,-192.168.1.0/24))
-3. [Run: nmap -sS 192.168.1.0/24 to perform TCP SYN scan](#Run:-nmap--sS-192.168.1.0/24-to-perform-TCP-SYN-scan)
+3. [Run: nmap -sS 192.168.1.0/24 to perform TCP SYN scan](#TCP-SYN-scan)
 4. [Note down IP addresses and open ports found](#Note-down-IP-addresses-and-open-ports-found)
 5. [Optionally analyze packet capture with Wireshark](#Optionally-analyze-packet-capture-with-Wireshark)
 6. [Research common services running on those ports](#Research-common-services-running-on-those-ports)
@@ -67,7 +67,7 @@ A port is like a “door” on a computer where a service listens for incoming t
 - - Used for encrypted web traffic (websites starting with https://).
 
 So when you use the Wireshark filter:
-- - - tcp.port == 22 or tcp.port == 443
+-  tcp.port == 22 or tcp.port == 443
 
  ## Identify potential security risks from open ports
  ## Save scan results as a text or HTML file
