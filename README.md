@@ -75,7 +75,11 @@ So when you use the Wireshark filter:
 ### On Windows host machine:
 `ifconfig`
 - 192.168.0.111
+
+-  - ![image](https://github.com/NATTOMR/Day-1-Scan-Your-Local-Network-for-Open-Ports/blob/main/image-4.png)
 ### Scan from the attacker machine
 `nmap -p- 192.168.1.10`
+
+ - ![image](https://github.com/NATTOMR/Day-1-Scan-Your-Local-Network-for-Open-Ports/blob/main/image-4.png)
 
  ## Save scan results as a text or HTML file
