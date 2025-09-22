@@ -17,10 +17,14 @@
  - ![image](https://github.com/NATTOMR/Day-1-Scan-Your-Local-Network-for-Open-Ports/blob/main/image-1.png)
 
  ## Find your local IP range (e.g., 192.168.1.0/24)
- - ![image]( https://github.com/NATTOMR/Day-1-Scan-Your-Local-Network-for-Open-Ports/blob/main/image-2.jpg)
+ - ![image](https://github.com/NATTOMR/Day-1-Scan-Your-Local-Network-for-Open-Ports/blob/main/imege-3.png)
  ## Run: nmap -sS 192.168.1.0/24 to perform TCP SYN scan
+  - ![image]( https://github.com/NATTOMR/Day-1-Scan-Your-Local-Network-for-Open-Ports/blob/main/image-2.jpg)
  ## Note down IP addresses and open ports found
  ## Optionally analyze packet capture with Wireshark
+ - Wireshark is a free and open‑source network protocol analyzer that captures and displays network traffic in real time. It is a powerful tool for network troubleshooting, analysis, software, and communications protocol development. A network packet analyzer like Wireshark presents captured packet data in as much detail as possible, similar to how an electrician uses a voltmeter to inspect an electrical cable, but for network traffic.
+ -https://www.wireshark.org/
+  - ![image](https://github.com/NATTOMR/Day-1-Scan-Your-Local-Network-for-Open-Ports/blob/main/image-4.png)
  ## Research common services running on those ports
  ## Identify potential security risks from open ports
  ## Save scan results as a text or HTML file
